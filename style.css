@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./img/bg-mobile.jpg)no-repeat top center/cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+header {
+  font-size: medium;
+  font-weight: 900;
+  font-family: "Josefin Slab", sans-serif;
+  background-color:#dd808036;
+  width: 80%;
+  margin:0 auto;
+  max-width: 588px;
+  border: 1px solid #dd8080;
+  box-shadow:0px 0px 20px #06141b;
+  border-radius: 20px;
+  padding: 20px ;
+}
+.title {
+  font-size: 1.5em;
+}
+.convidado {
+  font-size: 1.5em;
+  font-family: "Josefin Slab", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo img {
+  background: #dd808036;
+  border: 2px solid #dd8080;
+  border-radius: 20px;
+  padding: 5px;
+  width: 120px;
+}
+.logo img:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow:0px 0px 20px #06141b;
+}
+.info {
+  font-size: 1.2em;
+  width: 80%;
+  margin:0 auto;
+  max-width: 588px;
+  padding: 15px;
+  background-color:#dd808036;
+  border: 1px solid #dd8080;
+  border-radius: 20px;
+}
+footer .end {
+  padding-bottom: 10px;
+}
